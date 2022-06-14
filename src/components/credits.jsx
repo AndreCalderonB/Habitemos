@@ -15,7 +15,7 @@ function Credits() {
               Mauricio, Tony, a la familia Balcazar, a mis abuelos, a todxs lxs
               que probaron el juego y a quienes fueron parte del primer taller,
               André, María C, Saurabh Ji, a Pedro Pastor por sus canciones, a
-              todass las personas que formaron parte de la bibliografía y a
+              todas las personas que formaron parte de la bibliografía y a
               todas las personas no mencionadas que han influido y aportado a mi
               vida.
             </p>
