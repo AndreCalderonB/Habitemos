@@ -162,8 +162,8 @@ p {
 }
 
 .svg {
-  width: clamp(280px, 70vw, 1200px);
-  min-height: 60px;
+  width: clamp(290px, 85vw, 1200px);
+  min-height: 30px;
   height: fit-content;
 }
 .flex-center-top {
