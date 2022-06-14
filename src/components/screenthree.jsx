@@ -1,21 +1,38 @@
 import React from "react";
-
+import imageThree from "../assets/img/06.jpg";
+import imageFour from "../assets/img/08.1.jpg";
+import imageFive from "../assets/img/09.1.jpg";
+import imageSix from "../assets/img/ultima.jpg";
 function Screenthree() {
   return (
     <div className="screen border-white">
       <div className="row h-100">
-        <div className="col-7 border-white">
-          <div className="row h-50 border-white"></div>
-          <div className="row h-50 border-white"></div>
+        <div className="col-7 col-sm-100 border-white">
+          <div className="row h-50 border-white">
+            <div className="col-7 col-sm-100 p-01 flex flex-center">
+              <div className="imgContainer imgThree"></div>
+            </div>
+            <div className="col-4 col-sm-100 p-01 flex flex-center">
+              <div className="imgContainer imgFour"></div>
+            </div>
+          </div>
+          <div className="row h-50 border-white">
+            <div className="col-4 col-sm-100 p-01 flex flex-center">
+              <div className="imgContainer imgFive"></div>
+            </div>
+            <div className="col-7 col-sm-100 p-01 flex flex-center">
+              <div className="imgContainer imgSix"></div>
+            </div>
+          </div>
         </div>
-        <div className="col-4 border-white">
+        <div className="col-4 col-sm-100 border-white">
           <div className="row h-25 border-white">
             <div className="col-12 flex flex-center p-1">
               <h1>Sobre el Proyecto</h1>
             </div>
           </div>
           <div className="row h-75 border-white">
-            <div className="col-12 flex flex-center p-1">
+            <div className="col-12 flex flex-center-top p-1">
               <div className="container">
                 <p>
                   Habitemos fue elaborado por Daniela Zorrilla como proyecto de

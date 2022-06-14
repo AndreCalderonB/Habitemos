@@ -4,7 +4,7 @@ import Entry from "./components/entry";
 import Screenone from "./components/screenone";
 import Screentwo from "./components/screentwo";
 import Screenthree from "./components/screenthree";
-import credits from "./components/credits";
+import Credits from "./components/credits";
 import { useRef, useEffect } from "react";
 
 function App() {
@@ -12,16 +12,20 @@ function App() {
 
   useEffect(() => {
     const el = scrollRef.current;
-    console.log(el);
+
     if (el != undefined) {
       const onWheel = (e) => {
-        if (e.deltaY === 0) return;
 
-        e.preventDefault();
-        console.log();
-        window.scrollTo(window.pageXOffset + e.deltaY/10, 0);
+        console.log(window.innerWidth)
+        if (window.innerWidth > 500) {
+          if (e.deltaY === 0) return;
 
-        console.log(window.pageXOffset, e.deltaY);
+          e.preventDefault();
+
+          window.scrollTo(window.pageXOffset + e.deltaY / 13, 0);
+
+          console.log(window.pageXOffset, e.deltaY);
+        }
       };
 
       el.addEventListener("wheel", onWheel);
@@ -35,6 +39,7 @@ function App() {
         <Screenone />
         <Screentwo />
         <Screenthree />
+        <Credits />
       </div>
     </div>
   );
