@@ -6,13 +6,13 @@ function Screenone() {
     <div className="screen border-white">
       <div className="row h-50">
         <div className="col-4 col-sm-100 p-1 flex flex-center border-white">
-          <div className="container">
+          <div className="container raleway">
             <h1>¿Por qué existe este juego?</h1>
           </div>
         </div>
         <div className="col-7 col-sm-100 p-1 flex flex-center border-white">
           <div className="container">
-            <p>
+            <p className="raleway">
               La conversación es una herramienta poderosa de transformación
               social, La conversación de hoy pero no siempre sabemos utilizarla.
               Este juego busca crear espacios en los que re-aprendamos a

@@ -22,7 +22,7 @@ function App() {
 
           e.preventDefault();
 
-          window.scrollTo(window.pageXOffset + e.deltaY / 13, 0);
+          window.scrollTo(window.pageXOffset + e.deltaY / 6, 0);
 
           console.log(window.pageXOffset, e.deltaY);
         }

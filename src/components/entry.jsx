@@ -5,7 +5,7 @@ function Entry() {
     <div className="screen flex flex-center">
       <div className="container">
         <Logo />
-        <h1>Juguemos a Conversar</h1>
+        <h2 className="raleway">Juguemos a Conversar</h2>
       </div>
     </div>
   );

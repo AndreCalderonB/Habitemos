@@ -6,14 +6,14 @@ function Screentwo() {
       <div className="row h-100">
         <div className="col-7 col-sm-100">
           <div className="row h-25 border-white">
-            <div className="col-12  p-1 flex flex-center">
+            <div className="col-12 p-1 flex flex-center raleway">
               <h1>La conversación de hoy</h1>
             </div>
           </div>
           <div className="row h-75 border-white">
             <div className="col-12 p-1 flex flex-center-top">
               <div className="container">
-                <p>
+                <p className="raleway">
                   Hemos normalizado muchas dinámicas violentas dentro de
                   nuestras conversaciones cotidianas y esto nos ha llevado a
                   dejar a un lado lo enriquecedor que es el verdadero
@@ -25,7 +25,7 @@ function Screentwo() {
                   nuestros hábitos al hablar/ escuchar? ¿Por qué muchas veces
                   terminamos abandonando la conversación?
                 </p>
-                <p>
+                <p className="raleway">
                   En la investigación que cimienta este juego, analizamos de
                   dónde vienen estas dinámicas y qué podemos hacer para
                   transformarlas.
@@ -49,7 +49,7 @@ function Screentwo() {
           </div>
           <div className="row h-25  border-white">
             <div className="col-12 p-1 flex flex-center">
-              <p>
+              <p className="raleway">
                 Nos encontramos en un ciclo de comunicación que no nos permite
                 pensar en nuevas posibilidades.
               </p>
