@@ -24,10 +24,10 @@ function Screenone() {
       </div>
       <div className="row h-50 border-white">
         <div className="col-6  col-sm-100  p-1">
-          <img src={imageOne} alt="" />
+          <div className="imgContainer imgFour"></div>
         </div>
         <div className="col-6  col-sm-100  p-1">
-          <img src={imageTwo} alt="" />
+          <div className="imgContainer imgFive"></div>
         </div>
       </div>
     </div>

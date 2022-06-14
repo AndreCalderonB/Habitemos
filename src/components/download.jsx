@@ -1,0 +1,41 @@
+import React from "react";
+
+function DownloadIcon() {
+  return (
+    <svg
+      width="65"
+      height="67"
+      viewBox="0 0 65 67"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_6_2)">
+        <path
+          d="M32.24 0V44.02"
+          stroke="white"
+          stroke-width="6.48"
+          stroke-miterlimit="10"
+        />
+        <path
+          d="M52.61 25.9L32.24 46.27L11.87 25.9"
+          stroke="white"
+          stroke-width="6.48"
+          stroke-miterlimit="10"
+        />
+        <path
+          d="M3.23999 43.52V63H61.24V43.52"
+          stroke="white"
+          stroke-width="6.48"
+          stroke-miterlimit="10"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_6_2">
+          <rect width="64.48" height="66.24" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
+
+export default DownloadIcon;

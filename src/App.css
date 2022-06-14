@@ -85,10 +85,12 @@ body {
 h1 {
   color: white;
   font-size: 4rem;
+  text-align: left;
 }
 h2 {
   color: white;
   font-size: 3rem;
+  font-weight: 400;
 }
 .p-01{
   padding: 1rem;
@@ -106,6 +108,19 @@ h2 {
   overflow: hidden;
   background-size: cover;
   background-position: center;
+}
+a {
+  transform: scale(1);
+  transition: 300ms ease-in-out;
+}
+a:hover {
+  transform: scale(1.1);
+}
+.imgOne {
+  background-image: url('./assets/img/01.jpg')
+}
+.imgTwo {
+  background-image: url('./assets/img/04.jpg')
 }
 .imgThree {
   background-image: url('./assets/img/06.jpg')
@@ -190,11 +205,13 @@ p {
     h1 {
       color: white;
       font-size: 3rem;
+      text-align: left;
     }
     
     h2 {
       color: white;
       font-size: 2.5rem;
+      font-weight: 400;
     }
 
     .border-white {

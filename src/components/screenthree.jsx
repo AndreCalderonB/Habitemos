@@ -13,12 +13,12 @@ function Screenthree() {
               <div className="imgContainer imgThree"></div>
             </div>
             <div className="col-4 col-sm-100 p-01 flex flex-center">
-              <div className="imgContainer imgFour"></div>
+              <div className="imgContainer imgOne"></div>
             </div>
           </div>
           <div className="row h-50 border-white">
             <div className="col-4 col-sm-100 p-01 flex flex-center">
-              <div className="imgContainer imgFive"></div>
+              <div className="imgContainer imgTwo"></div>
             </div>
             <div className="col-7 col-sm-100 p-01 flex flex-center">
               <div className="imgContainer imgSix"></div>
@@ -27,12 +27,12 @@ function Screenthree() {
         </div>
         <div className="col-4 col-sm-100 border-white">
           <div className="row h-25 border-white">
-            <div className="col-12 flex flex-center p-1">
+            <div className="col-12 flex p-1">
               <h1 className="raleway">Sobre el Proyecto</h1>
             </div>
           </div>
           <div className="row h-75 border-white">
-            <div className="col-12 flex flex-center-top p-1">
+            <div className="col-12 flex-top p-1">
               <div className="container">
                 <p className="raleway">
                   Habitemos fue elaborado por Daniela Zorrilla como proyecto de

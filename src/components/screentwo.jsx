@@ -1,12 +1,13 @@
 import React from "react";
 import Diagrama from "./diagrama";
+import DownloadIcon from "./download";
 function Screentwo() {
   return (
     <div className="screen border-white">
       <div className="row h-100">
         <div className="col-7 col-sm-100">
           <div className="row h-25 border-white">
-            <div className="col-12 p-1 flex flex-center raleway">
+            <div className="col-12 p-1 flex raleway">
               <h1>La conversación de hoy</h1>
             </div>
           </div>
@@ -32,9 +33,15 @@ function Screentwo() {
                 </p>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-3 flex flex-center">
+                    <a href="https://publicbucker.s3.us-east-2.amazonaws.com/Habitemos_DanielaZorrilla.pdf">
+                      <DownloadIcon />
+                    </a>
+                  </div>
                   <div className="col-9">
-                    <p>Si te interesa, descarga el ensayo de la investigación</p>
+                    <p>
+                      Si te interesa, descarga el ensayo de la investigación
+                    </p>
                   </div>
                 </div>
               </div>
